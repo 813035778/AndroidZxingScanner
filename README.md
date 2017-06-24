@@ -9,7 +9,7 @@ targetSdkVersion 22
 - 1、首先添加权限
 
 ```
- <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.CAMERA" />
     <uses-permission android:name="android.permission.VIBRATE" />
     <uses-permission android:name="android.permission.FLASHLIGHT" />
 ```
