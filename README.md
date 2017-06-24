@@ -13,7 +13,7 @@ targetSdkVersion 22
     <uses-permission android:name="android.permission.VIBRATE" />
     <uses-permission android:name="android.permission.FLASHLIGHT" />
 ```
-- 继承 MFCaptureActivity
+- 2、继承 MFCaptureActivity
 ```
 public class TestScannerActivity extends MFCaptureActivity {
     private static final String TAG = "TestScannerActivity";
@@ -34,7 +34,7 @@ public class TestScannerActivity extends MFCaptureActivity {
     }
 }
 ```
-- 添加布局
+- 3、添加布局
 ```
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
